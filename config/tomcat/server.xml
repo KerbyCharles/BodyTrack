@@ -2,7 +2,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Context
-    path="/server"
+    path="/BodyTrack"
     docBase="/opt/tomcat10/BodyTrack"
     antiResourceLocking="false"
     privileged="true"
