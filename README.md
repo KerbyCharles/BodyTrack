@@ -5,7 +5,7 @@
 O **BodyTrack** é um sistema de acompanhamento corporal desenvolvido com o objetivo de permitir o cadastro de usuários, o registro de avaliações corporais e o acompanhamento da evolução do peso e do Índice de Massa Corporal (IMC).
 
 O projeto busca organizar as informações corporais dos usuários, permitindo consultar registros anteriores e acompanhar sua evolução ao longo do tempo.
-
+git@github.com:KerbyCharles/BodyTrack.git
 ## Objetivos
 
 - Permitir o cadastro e o gerenciamento de usuários.

@@ -1,0 +1,147 @@
+@import "tailwindcss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@theme {
+    --color-clinical-900: #164e63;
+    --color-clinical-700: #0E7490;
+    --color-clinical-500: #06B6D4;
+
+    --color-medical-500: #14BBA6;
+
+    --color-hospital-bg: #F1F7FA;
+    --color-hospital-surface: #FFFFF;
+
+
+    --color-hospital-text: #243B53;
+    --color-hospital-muted: #8297AB;
+}
+
+/* GRID DOS INDICADORES */
+
+H
+html {
+    scroll-behavior: smooth;
+}
+.header-user {
+    margin-right: 15px;
+}
+
+.logo-icon{
+    margin-left: 8px;
+}
+.layout main {
+    flex: 1;
+    min-width: 0;
+    padding: 30px;
+}
+
+.evolucao h2 {
+    margin-bottom: 7px;
+}
+.evolucao  {
+    margin-top: 34px;
+    min-height: 225px;
+    padding: 24px;
+}
+
+
+.historico {
+    margin-top: 34px;
+    margin-bottom: 10px;
+    padding: 24px;
+  
+}
+.historico h2 {
+   margin-bottom: 7px; 
+}
+.historico p {
+    margin-bottom: 5px;
+}
+    
+aside {
+    padding: 15px;
+}
+/* CARDS */
+
+.card {
+    min-height: 225px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 14px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* ÍCONES */
+
+.card-icon {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0f2fe;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+/* TÍTULOS */
+
+.card h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #64748b;
+}
+
+/* VALORES */
+
+.card p {
+    font-size: 28px;
+    font-weight: 700;
+    color: #164e63;
+    margin-top: 10px;
+}
+
+.card p span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* DESCRIÇÃO */
+
+.card small {
+    display: block;
+    margin-top: 10px;
+    color: #94a3b8;
+    font-size: 12px;
+}
+
+@media (max-width: 600px) {
+    .card {
+        min-height: auto;
+    }
+}
+.grafico-container {
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+}

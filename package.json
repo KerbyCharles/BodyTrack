@@ -1,0 +1,28 @@
+{
+  "name": "bodytrack",
+  "version": "1.0.0",
+  "description": "O **BodyTrack** é um sistema de acompanhamento corporal desenvolvido com o objetivo de permitir o cadastro de usuários, o registro de avaliações corporais e o acompanhamento da evolução do peso e do Índice de Massa Corporal (IMC).",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KerbyCharles/BodyTrack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/KerbyCharles/BodyTrack/issues"
+  },
+  "homepage": "https://github.com/KerbyCharles/BodyTrack#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.5",
+    "tailwindcss": "^4.3.5"
+  }
+}
