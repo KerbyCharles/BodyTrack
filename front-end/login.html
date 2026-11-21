@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela login</title>
+    <link rel="stylesheet" href="css/output.css">
+</head>
+<body class="min-h-screen bg-slate-100 flex items-center justify-center p-4">
+    <main class="w-full max-w-md bg-white p-6  rounded-2xl shadow-lg">
+        <h1 class="text-2xl font-bold text-clinical-900 text-center">Bem-vindo de volta!</h1>
+        <p class="text-sm text-slate-500 text-center mt-2">Acesse sua conta</p>
+
+        <form id="login" class="mt-6 flex flex-col gap-4">
+            <div class="flex flex-col gap-3">
+                <label for="emailLogin">E-mail</label>
+                <input type="email"
+                required
+                id="emailLogin"
+                name="emailLogin"
+                placeholder=" nome@gamil.com"
+                class="w-full p-3 border border-slate-300 rounded-lg outline-none focus:ring-2 focus:ring-clinical-500 focus:border-clinical-500
+                transition">
+            </div>
+            <div class="flex flex-col gap-3">
+                <label for="senhaLogin"> Senha</label>
+                <input type="password"
+                id="senhaLogin"
+                name="senhaLogin"
+                required
+                placeholder=" Senha"
+                class="w-full p-3 border border-slate-300 rounded-lg outline-none focus:ring-2 focus:ring-clinical-500 focus:border-clinical-500
+                transition">
+            </div>
+            <div>
+                <a href="recuperar-senha.html"
+                class="text-sm text-clinical-700 hover:underline">Esqueceu sua senha?</a>
+            </div>
+            <button type="submit" 
+            class="cadastro w-full h-14 bg-clinical-900 text-white font-semibold rounded-lg px-6 hover:bg-clinical-700 transition duration-300">Entrar</button>
+
+            <a href="cadastro.html" class="cadastro block w-full h-14 text-center bg-clinical-900 text-white font-semibold rounded-lg px-6 py-3 hover:bg-clinical-700 transition duration-300 ">
+                <span class="relative top-1">Cadastra-se</span>
+            </a>   
+        </form>
+    </main>
+    <script src="js/login.js"defer></script>
+</body>
+</html>
