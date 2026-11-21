@@ -31,9 +31,18 @@ html {
 .header-user {
     margin-right: 15px;
 }
+main {
+    padding: 24px
+}
 
 .logo-icon{
     margin-left: 8px;
+}
+.cadastro{
+    height: 2rem;
+}
+input {
+    height: 2rem;
 }
 .layout main {
     flex: 1;
