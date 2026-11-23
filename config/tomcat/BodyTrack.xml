@@ -3,7 +3,7 @@
 
 <Context
     path="/BodyTrack"
-    docBase="/var/lib/tomcat10/webapps/BodyTrack"
+    docBase="/opt/tomcat10/BodyTrack"
     antiResourceLocking="false"
     privileged="true"
 />
