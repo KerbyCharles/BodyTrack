@@ -29,7 +29,7 @@ public class UsuarioDAO {
         }
     }
 
-    // Buscar por email
+    
     public Usuario buscarPorEmail(String email) throws SQLException {
 
         String sql = """
@@ -62,7 +62,7 @@ public class UsuarioDAO {
         return null;
     }
 
-    // Buscar por ID
+    
     public Usuario buscarPorId(int id) throws SQLException {
 
         String sql = """

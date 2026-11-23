@@ -12,7 +12,7 @@ public class Usuario {
     private LocalDate dataNascimento;
     private double altura;
 
-    // Primeiro construtor: novo usuário
+   
     public Usuario(String nome, String email, String senha,
                    LocalDate dataNascimento, double altura) {
 
@@ -23,7 +23,7 @@ public class Usuario {
         this.altura = altura;
     }
 
-    // Segundo construtor: usuário recuperado do banco
+    
     public Usuario(int id, String nome, String email, String senha,
                    LocalDate dataNascimento, double altura) {
 
